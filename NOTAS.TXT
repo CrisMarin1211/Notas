@@ -1,0 +1,92 @@
+### 1. **GET, PUT, POST, DELETE**
+
+Estos son **métodos HTTP**, que básicamente son acciones que usamos cuando interactuamos con páginas web o servicios en internet. Vamos a compararlo con algo común: **pedir comida a domicilio**.
+
+- **GET**: Es como **mirar el menú** de un restaurante. Cuando entras a una página web, usas GET para obtener información. Solo estás mirando, no haces cambios, solo quieres ver lo que hay. - Su función principal es pedir datos o información al servidor, sin modificar nada en él
+
+  - Ejemplo: Entras a una página de productos y ves los detalles de una bicicleta.
+
+- **POST**: Es como **hacer un pedido**. Cuando mandas datos nuevos a un servidor (como enviar un mensaje o crear una cuenta), usas POST.
+
+  - Ejemplo: Cuando te registras en una página web y envías tus datos (nombre, correo, contraseña), eso es un POST.
+
+- **PUT**: Es como **cambiar tu pedido**. Si ya hiciste una acción (como subir una foto o escribir un blog) y luego la quieres cambiar o actualizar, usas PUT.
+
+  - Ejemplo: Cambias tu nombre en tu perfil o editas una publicación en redes sociales.
+
+- **DELETE**: Como su nombre dice, **borras algo**. Si decides cancelar tu pedido, eso sería DELETE. Eliminar datos de un servidor.
+
+  - Ejemplo: Cuando eliminas una foto o una cuenta.
+
+GET: Pide información, no cambia nada.
+
+POST: Envía datos al servidor para agregar o modificar algo (por ejemplo, enviar un formulario).
+
+PUT: Modifica o reemplaza completamente algo en el servidor.
+
+DELETE: Elimina información del servidor.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+### 2. **IP y DNS**
+
+- **IP (Internet Protocol)**: Es como la **dirección de tu casa** en internet. Cada computadora, celular o servidor tiene una dirección IP única para que puedan ser localizados. Así, cuando mandas una solicitud (como visitar una página web), sabes exactamente a dónde va la información.
+
+- **DNS (Domain Name System)**: Imagina que en lugar de recordar números (como una IP), usas **nombres de lugares** para encontrar direcciones. El DNS es como una **agenda telefónica** que convierte direcciones fáciles de recordar (como "google.com") en direcciones IP.
+
+  - Ejemplo: Cuando escribes "youtube.com", el DNS lo traduce a la IP de los servidores de YouTube, porque los números son difíciles de recordar.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#### Las partes de una URL:
+
+## https :// www. netflix .com /browse ? jbv=81809289 &
+
+Protocolo , Sub Dominio , Dominio , Super Dominio , Path to Resource , Query String , Key = Value
+
+                    [ —————— Host name —————— ]                            Query string separation (&)
+
+**PROTOCOL:** **(http, https, ws, ftp)**
+Especifica el protocolo que se utilizará para acceder al recurso. Le dice a su navegador web que encripte cualquier información que ingrese en la página, como sus contraseñas o información de tarjetas de crédito, para que los cibercriminales no puedan acceder a ella.
+
+**SUB - DOMAIN:**
+Es una división de un dominio principal con su propia identidad única y puede utilizarse para organizar el contenido dentro de un sitio web. Ej. www , store , parthers
+
+**DOMAIN:**
+Es la **dirección del sitio web,** actúa como un identificador único y consta de una palabra (cadena de caracteres).
+
+**SUPER DOMAIN:**
+O dominios de nivel superior (TLD), se utilizan para categorizar e identificar sitios web por su tipo o propósito, ayudando a crear una estructura jerárquica para Internet.
+
+._com (commercial)
+.org (organization)
+.net (network)
+.edu (educational institution)
+.gov (government)
+.mil (military)
+.int (international)_
+
+**PATH TO RESOURCE: (Ruta)**
+Indica la ubicación exacta del recurso en el servidor. Esta parte puede incluir carpetas y el nombre del archivo que se está solicitando.
+
+**QUERY STRING ? KEY = VALUE**
+
+Comienza con un `?` seguido de una o más parejas de clave = valor separadas por `&`. Este método es común en formularios web y aplicaciones que requieren parámetros específicos.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+### 3. **Qué es una API**
+
+Finalmente, hablemos de las **APIs**. Una API es como un **mesero en un restaurante**.
+
+- **API** (Application Programming Interface) es un conjunto de **reglas** que permiten que dos programas se comuniquen entre sí. Piensa en la API como el **intermediario** que conecta dos sistemas.
+
+Por ejemplo, imagina que estás en una aplicación de clima. La aplicación no tiene la información de clima, pero usa una **API** que le permite conectarse a un servidor donde está esa información. Entonces, la aplicación le pide a la API el clima de tu ciudad, y la API le responde con los datos (como un mesero trayendo tu comida).
+
+#### Importancia de las APIs:
+
+Las **APIs son muy importantes** porque permiten que diferentes servicios trabajen juntos sin que tengan que compartir todo su código. De esta manera, los desarrolladores pueden crear aplicaciones más rápido y eficiente.
+
+- Ejemplo: Cuando usas Google Maps dentro de otra app (como Uber), esa app está usando una **API de Google Maps** para mostrarte los mapas y ubicaciones sin tener que crear su propio sistema de mapas.
+
+En resumen, las APIs son **conectores** entre diferentes programas, haciendo que todo funcione de manera más sencilla.
